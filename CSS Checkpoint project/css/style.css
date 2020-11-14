@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    margin: 0px auto;
+    line-height: 1.5;
+}
+
+/** HEADER **/
+header {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul li a{
+    padding: 10px 5px;
+    text-decoration: none;
+    color : #2c3e50;
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid #e74c3c;
+    color : #e74c3c;
+}
+
+/** HEADER **/
+
+/** About ME **/
+
+.left, .right{
+    display: inline-block;
+}
+
+.aboutMe {
+    border: 1px dashed #000000;
+}
+
+.left{
+    width: 30%;
+    padding: 45px 10px 10px 20px;
+}
+
+.left > .picture{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    border: 1px solid #999999;
+    background-color: #999999;
+    padding: 15px;
+}
+
+.right{
+    width: 65%;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.right h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+/** About ME **/
+
+/* PROPS EN COMMUN PR SECTION MY RESUME ET MY WORK */
+.MyResume, .MyWork{
+    display: inline-block;
+    vertical-align: top;
+    border: 1px dashed #000000;
+    margin-top: 20px;
+    padding: 20px
+}
+/* PROPS EN COMMUN PR SECTION MY RESUME ET MY WORK */
+
+/** MY WORK **/
+
+.MyWork{
+    width: 50%;
+}
+
+.MyWork .job{
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/** MY WORK **/
+
+/** MY RESUME **/
+
+.MyResume{
+    width: 40%;
+    margin-left: 12px;
+}
+
+.MyResume .study{
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.MyResume .study:nth-child(4){
+    margin-bottom: 10px;
+    padding-bottom: 34px;
+}
+
+/** MY RESUME **/
+
+/** CONTACTE ME **/
+
+.contactMe{
+    border: 1px dashed #000000;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.contactMe .InputField{
+    width: 100%;
+}
+
+/** CONTACTE ME **/
+
+/** FOOTER **/
+
+footer {
+    text-align: center;
+    border: 1px dashed #000000;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+footer a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/** FOOTER **/
